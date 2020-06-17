@@ -1,0 +1,1 @@
+Write a program to read a digital input on pin 2, prints the result to the Serial Monitor.
