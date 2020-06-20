@@ -1,0 +1,28 @@
+DAY 6:
+Write a program to find the frequency of each digit in a given integer.
+
+Details:
+The program can be used to count the number of digits in a given number.
+
+Inputs:
+Input any number.
+
+Outputs:
+Print the respective frequency of a digit.
+
+Sample:
+
+Inputs
+122345
+
+Outputs:
+The frequency of 0 = 0
+The frequency of 1 = 1
+The frequency of 2 = 2
+The frequency of 3 = 1
+The frequency of 4 = 1
+The frequency of 5 = 1
+The frequency of 6 = 0
+The frequency of 7 = 0
+The frequency of 8 = 0
+The frequency of 9 = 0
