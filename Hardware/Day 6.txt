@@ -1,0 +1,2 @@
+Write a program to read the analog value from a potentiometer 
+and display it in serial monitor.
