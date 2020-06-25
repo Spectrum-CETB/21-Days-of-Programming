@@ -1,0 +1,19 @@
+DAY 4:
+Given a time in 12-hour AM/PM format, convert it to military (24-hour) time.
+
+Details:
+The program can be used to convert a time in 12-hour AM/PM format to military(24-hour) time.
+
+Inputs:
+Enter a time in 12-hour AM/PM format. 
+
+Outputs:
+Convert the input time to military time and print it on the screen.
+
+Sample:
+
+Input
+11:30:30 PM
+
+Output
+23:30:30
