@@ -1,0 +1,2 @@
+Write a program to rotate a servo motor according to the value of a
+variable resistor/Potentiometer.
