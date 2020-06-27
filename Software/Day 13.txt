@@ -1,0 +1,19 @@
+DAY 13:
+Given a positive integer n( 1 <= n <= 1015). Find the largest prime factor of a number.	
+
+Details:
+The program can be used to find the largest prime factor of a number.
+
+Inputs:
+Input any number.
+
+Outputs:
+Print largest prime factor of the number.
+
+Sample:
+
+Input:
+6
+
+Output:
+3
