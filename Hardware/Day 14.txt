@@ -1,0 +1,3 @@
+Write a program to show an alert in a 16×2 LCD 
+whenever a ultrasonic sensor sense something less than 1m range
+(First row will show the distance and the second row will show the alert).
