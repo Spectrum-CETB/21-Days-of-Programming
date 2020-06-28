@@ -1,0 +1,20 @@
+DAY 14:
+Write a python program to replace all occurences of a substring in a string.
+
+Details:
+Inputs:
+Input any string.
+Input the substring you want to replace.
+Input the string you want to replace it with.
+
+Outputs:
+Print the final string after replacing the substring with the string entered by the user.
+
+Sample:
+Inputs
+The original string is : My name is Rohan
+The substring you want to replace : Rohan
+The string you want to use instead : Rahul
+
+Outputs:
+My name is Rahul
