@@ -1,5 +1,5 @@
 DAY 14:
-Write a python program to replace all occurences of a substring in a string.
+Write a program to replace all occurences of a substring in a string.
 
 Details:
 Inputs:
