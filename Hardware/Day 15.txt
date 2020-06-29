@@ -1,0 +1,4 @@
+Using 3 sensor and 4 led.
+When sensor1 activates led1 and led2 glows and 
+when sensor2 activates led1 gets off and led2 and led3 glows and 
+when sensor3 activates led 2 goes of and led3 and led4 glows(initially everything is in off condition).
