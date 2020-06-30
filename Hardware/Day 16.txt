@@ -1,0 +1,2 @@
+Using 3 push button and 3 led.When push button1 is pressed a process will start( led1 glows for 2 sec and then after that led2 glows for 2 sec and after that led3 glows for 2 sec).
+When push button2 is pressed the process will again start from the begging and when push button3 is pressed whole process will stop(initially everything is in off condition).
