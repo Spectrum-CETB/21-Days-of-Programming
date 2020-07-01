@@ -7,6 +7,7 @@ a-     First element of the series
 b-     Second element of the series
 n-     number of elements of the series you wanna display
 The program should take user input of the above parameters and pass it to the function for execution.
+You can add more parameters if you want, but the above 3 are required for certainity.
 
 Inputs:
 Input the starting element a, second element b, and the number of the elements you wanna display.
