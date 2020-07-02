@@ -19,8 +19,8 @@ Inputs
 7 3
 26 17
 Outputs:
- 1
-7
+1
+8
 
 Explanation:-
 In the first case, we can subtract 1 from 7 once, to get 6 which is divisible by 3.
