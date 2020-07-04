@@ -1,0 +1,42 @@
+DAY 20:
+
+Write a program to find the number of possible combinations of the elements in an array,without repetition, 
+ such that their sum is always lesser than or equal to a number x. 
+
+Details:
+Given an array of n number of elements, find all the possible combinations of the elements of an array, 
+which on being added, shall result in a sum less than or equal to x.
+
+Inputs:
+l = length of the array
+a = array elements separated by a space
+x = the number which shall act as the condition
+
+Outputs:
+Number of such possible combinations. 
+If no such combinations are possible, print -1
+
+Sample:
+Input:
+5
+1 3 2 8 4
+7
+Output:
+12
+
+Explanation:
+Possible  correct combinations are
+3,
+2,
+4,
+1, 
+1+3 = 4, 
+1+2 = 3, 
+1+4 = 5
+1+3+2  = 6,
+ 1+2+4 = 7, 
+1+2+4 = 7,
+ 2+4 = 6, 
+3+4 = 7
+
+Rest combinations, ilke 1+3+2+4 or 1+3+8+2 result in a sum more than 7. So they aren’t counted.
