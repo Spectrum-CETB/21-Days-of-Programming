@@ -1,0 +1,27 @@
+DAY 21:
+Write a program to find the minimum steps to achieve a particular quantity of chemical using beaker with not measurements.
+Details:
+You have beakers of X and Y ml(Y>X). Both the beakers can measure only X and Y ml, no smaller quantities. You have to collect F quantity using beaker X and Y only for your chemical reaction for F < Y.
+Inputs:
+Input any two beaker size. (X and Y)
+Input the required quantity. (F)
+Outputs:
+Print the steps (quantity in X and Y beaker at every stage) till one shows the F quantity.
+Sample:
+Inputs
+4 9
+6
+Outputs:
+(0, 0) (0, 9) (4, 5) (0, 5) (4, 1) (0, 1) (1, 9) (4, 6) (0, 6)
+Explanation:
+Consider 2 beakers one 4ml and other 9ml: Beaker 1 (4ml) and Beaker 2 (9ml)
+First fill the 9ml beaker fully. : 0 ml and 9 ml
+Pour the chemical into 4ml beaker. : 4 ml and 5 ml
+Empty the 4ml beaker. : 0 ml and 5 ml
+Repeat this twice. : 4 ml and 1 ml
+Now you will left with 1ml chemical in the 9ml beaker: 0 ml and 1 ml
+Now pour this 1ml into the 4ml beaker: 1 ml and 0 ml
+Refill the 9ml beaker. : 1ml and 9ml
+Now pour the chemical from 9ml into the 4ml beaker until it fills up. : 4 ml and 6 ml
+Now you are left with 6 ml chemical in the 9ml beaker.
+
