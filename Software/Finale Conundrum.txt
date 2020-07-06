@@ -1,3 +1,6 @@
+Thanks a lot guys for trying out these 21 days programming event and working out your brains to solve these Questions. Hope you all improved quite a bit by the end of these 21 days. Here is a final question, a bonus question for you, and believe me, this isn't like any question you have seen before. Try it and give it a shot using all resources you can, and if you can solve it, I assure you, you are one heck of a programmer capable of competing with the best. Good luck, and keep coding!
+
+
 Bonus Question:-
 Given an array of NxN size, which refers to the numerical representation of a map, where 0 signifies an open path and 1 signifies a closed path, and $ and # signifies a score point, print the path needed to reach i1,j1 position from i,j position in the array, in such a way, that minimum number of steps are taken, as well as maximum score is attained at the end.
 
