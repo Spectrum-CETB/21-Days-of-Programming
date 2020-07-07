@@ -1,0 +1,51 @@
+Thanks a lot guys for trying out these 21 days programming event and working out your brains to solve these Questions. Hope you all improved quite a bit by the end of these 21 days. Here is a final question, a bonus question for you, and believe me, this isn't like any question you have seen before. Try it and give it a shot using all resources you can, and if you can solve it, I assure you, you are one heck of a programmer capable of competing with the best. Good luck, and keep coding!
+
+
+Bonus Question:-
+Given an array of NxN size, which refers to the numerical representation of a map, where 0 signifies an open path and 1 signifies a closed path, and $ and # signifies a score point, print the path needed to reach i1,j1 position from i,j position in the array, in such a way, that minimum number of steps are taken, as well as maximum score is attained at the end.
+
+Description:-
+At the start you have NxN points, for each $ you capture on your path to the destination, your point increases by 3, and adversely, each # you encounter on your path, reduces your point by -5. You have to find the path which will make you lose the minimum number of points, as well as maximize your reward remaining at the end of the journey.
+So in a way, the symbols denote:-
+0 - path is open
+1- path is closed
+$- path is open and gives +3
+#-path is open but gives -5
+
+Sample input:
+first line shall contain the value of N
+second and third lines shall contain source and destination 
+the next N lines contain the map in a numerical format
+E.g.
+8
+0,0
+7,7
+0 0 $ 0 # 1 0 0
+0 1 0 1 0 0 $ 0
+0 0 0 0 1 # 1 1
+$ 0 1 0 1 $ # 1
+0 0 $ 0 1 # 0 0 
+$ 1 1 0 1 1 0 1
+0 1 0 # 0 0 $ 0
+0 0 0 1 1 1 1 0
+
+Sample Output:
+0,0
+1,0
+2,0
+3,0
+3,0
+5,0
+6,0
+7,0
+7,1
+7,2
+6,2
+6,3
+6,4
+6,5
+6,6
+6,7
+7,7
+Points at start:- 64
+Points at end:- 70
