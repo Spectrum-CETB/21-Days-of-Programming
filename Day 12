@@ -1,0 +1,8 @@
+#differnce of sum of odd places and even places
+def calculation(x):
+  return(x % 11 == 0)
+  x = int(input("enter the long int: ")); 
+  if (calculation(x)): 
+	print("Yes") 
+else: 
+	print("No") 

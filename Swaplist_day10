@@ -1,0 +1,19 @@
+#Day_10_swaplist
+def swapList(lst): 
+	size = len(lst) 
+	
+	 t = lst[0] 
+	lst[0] = lst[size - 1] 
+	lst[size - 1] = t
+	
+	return lst 
+
+lst = [] 
+x = int(input("Enter number of elements : ")) 
+for i in range(0, x): 
+	element = int(input()) 
+
+	lst.append(element) 
+	
+print(lst)
+print(swapList(lst)) 
