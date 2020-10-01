@@ -1,0 +1,16 @@
+#Maximum_prime_factors
+import math 
+def maxPFact (n): 
+	maxP = -1
+	while n % 2 == 0: 
+		maxP = 2
+		n /= 2 	 
+	for i in range(3, int(math.sqrt(n)) + 1, 2): 
+		while n % i == 0: 
+			maxP = i 
+			n = n / i 
+	if n > 2: 
+		maxP = n 
+	return int(maxP) 
+n = int(input("Enter a number= "))
+print(maxPFact(n)) 
